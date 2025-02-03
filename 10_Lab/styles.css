@@ -1,0 +1,127 @@
+/* Общие стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ABD9FC; /* Цвет фона всей страницы */
+    color: #251B9F; /* Цвет шрифта */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Позволяет футеру оставаться внизу */
+}
+
+/* Стили для заголовка */
+header {
+    background-color: #ABD9FC; /* Цвет фона шапки */
+    color: #251B9F; /* Цвет текста шапки */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Стили для навигации */
+nav {
+    background-color: #ABD9FC; /* Цвет фона навигации */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #251B9F; /* Цвет ссылок */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00; /* Цвет фона при наведении */
+    color: #1a1a1a; /* Цвет текста при наведении */
+}
+
+/* Стили для основного контента */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    flex: 1; /* Позволяет основному контенту занимать оставшееся пространство */
+}
+
+/* Стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #ABD9FC; /* Цвет фона футера */
+    color: #251B9F; /* Цвет текста футера */
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Стили для списков */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Стили для кнопок */
+button {
+    background-color: #ffcc00; /* Цвет кнопок */
+    color: #1a1a1a; /* Цвет текста кнопок */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ffd700; /* Цвет кнопки при наведении */
+    transform: scale(1.05);
+}
+
+/* Стили для заголовков и текста */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Стили для карточек */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+}
